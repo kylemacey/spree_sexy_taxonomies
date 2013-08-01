@@ -1,7 +1,9 @@
 SpreeSexyTaxonomies
 ===================
 
-Introduction goes here.
+`spree_sexy_taxonomies` is intended to expand upon the possibilities for the display and presentation of 
+taxonomies and taxons. At this point, it adds a "header" image to the Spree::Taxon model and displays it 
+on the taxons#show page along with its previously existing "description" attribute. 
 
 Installation
 ------------
@@ -9,7 +11,7 @@ Installation
 Add spree_sexy_taxonomies to your Gemfile:
 
 ```ruby
-gem 'spree_sexy_taxonomies'
+gem 'spree_sexy_taxonomies', github: 'KyleMacey/spree_sexy_taxonomies'
 ```
 
 Bundle your dependencies and run the installation generator:
