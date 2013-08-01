@@ -37,4 +37,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_sexy_taxonomies/factories'
 ```
 
-Copyright (c) 2013 [name of extension creator], released under the New BSD License
+Copyright (c) 2013 Kyle Macey, released under the New BSD License
