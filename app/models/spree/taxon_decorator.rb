@@ -1,5 +1,6 @@
+Spree::PermittedAttributes.taxon_attributes << :header
+
 Spree::Taxon.class_eval do
-  attr_accessible :header
 
   has_attached_file :header,
     styles: { normal: '1000x' },
