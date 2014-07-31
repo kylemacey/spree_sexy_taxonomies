@@ -1,14 +1,13 @@
 <div data-hook="taxon_info">
-  <% if @taxon.header.exists? %>
+  <% if @taxon.header %>
     <p data-hook="taxon_header">
-      <%= taxon_header @taxon %>
+      <%= image_tag @taxon.header %>
     </p>
   <% end -%>
   <% if @taxon.description.present? %>
     <p data-hook="taxon_description">
-      <%= @taxon.description.html_safe %>
+      <%= raw @taxon.description %>
     </p>
-  <% end -%>
+  <% end %>
 </div>
-
 
